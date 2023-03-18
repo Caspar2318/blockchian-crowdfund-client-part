@@ -45,7 +45,7 @@ const Sidebar = () => {
               handleClick={() => {
                 if (!link.disabled) {
                   setIsActive(link.name);
-                  nevigate(link.link);
+                  navigate(link.link);
                 }
               }}
             />
